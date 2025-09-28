@@ -39,6 +39,9 @@ input{
 .indate{
   width: 5rem;
 }
+.btn{
+  background-color: red;
+}
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

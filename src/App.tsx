@@ -40,7 +40,7 @@ function App() {
         <div className="card_results">
 
         </div>
-        <input type="button" value="Search" />
+        <input type="button" value="Search" className='btn' />
       </div>
     </>
   )
