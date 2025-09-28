@@ -3,7 +3,9 @@ import './App.css'
 
 function App() {
   
-
+  function checkroundtrip(){
+    console.log("Funcionou")
+  }
   return (
     <>
       <div className="card">
@@ -33,7 +35,7 @@ function App() {
             <h3>
             Round Trip:
             </h3>
-            <input type="checkbox" name="" id="checkround" />
+            <input type="checkbox" name="" id="checkround" onClick={checkroundtrip}  />
           </div>
           
         </div>
