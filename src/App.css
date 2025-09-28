@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.from,.to, .people, .travel, form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+
+}
+input{
+  height: 2rem;
+  width: 12rem;
+  background-color: aliceblue;
+  border: none;
+  color:#646cffaa ;
+  border-radius: 12px;
+}
+.pn{
+  width: 1.5rem;
+}
+.indate{
+  width: 5rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  border-radius: 20px;
+  width: 100%;
+  background-color:#646cffaa;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body{
+  background-color: aliceblue;
+}
